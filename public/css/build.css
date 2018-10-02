@@ -177,6 +177,12 @@
 	border: 5px solid black;
 }
 
+#firstPicture {
+	background-image: url(/storage/images/effiong.png);
+	background-size: cover;
+	background-position: center;
+}
+
 #secondPicture {
 	background-image: url('/storage/images/OdeladeProfile.jpg');
 	background-position: center;
