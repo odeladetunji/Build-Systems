@@ -1,0 +1,287 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Geneva;
+	border: box-border;
+	
+ }
+
+ .row {
+ 	margin-left: 0px;
+ 	margin-right: 0px;
+ 	width: 100%;
+ }
+
+ .header {
+ 	background-color: 0F151E;
+ 	padding: 20px;
+ 	color: white;
+ 	padding-bottom: 50px;
+ 	display: none;
+ }
+
+ .headBanner {
+   background-color: #1B2028;
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 250px;
+ }
+
+ .header ul li{
+ 	list-style-type: none;
+ 	color: white;
+ 	background-color: none;
+ 	border: 1px solid maroon;
+ 	padding: 5px 30px;
+ 	margin-left: 5px;
+ 	display: inline-block;
+ 	border-radius: 5px;
+ 	float: right;
+ 	cursor: pointer;
+ }
+
+ .header ul li:hover, .headBanner ul li:hover{
+ 	background-color: transparent;
+ 	color: purple;
+ }
+
+ .headBanner ul li {
+ 	list-style-type: none;
+ 	color: white;
+ 	background-color: none;
+ 	padding: 5px 30px;
+ 	margin-left: 5px;
+ 	display: inline-block;
+ 	border-radius: 5px;
+ 	float: right;
+ 	cursor: pointer;
+ }
+
+#buildlist {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.headBanner ul {
+    margin-top: 40px;
+    margin-right: 3%;
+}
+.subBanner h1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 5%;
+}
+
+#firstTitle {
+     padding-top: 250px;
+}
+
+.subBanner p, .subBanner button {
+	margin-left: 5%;
+}
+
+.subBanner button{
+	padding: 8px 30px;
+	border: 1px solid maroon;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 50px;
+	background-color: lightgreen;
+	color: default;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.subBanner button:hover {
+	background-color: green;
+	color: white;
+}
+
+.howWeAutomateProcess h2 {
+	text-align: center;
+	padding: 60px;
+	background-color: #141A24;
+	color: white;
+	margin-bottom: 0px
+}
+
+.content {
+	border: 1px solid black;
+	width: 80%;
+	margin-left: 10%;
+	color: white;
+	margin-top: 0px;
+	background-color: #21252C;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.content .description, .content .design{
+	text-align: center;
+}
+.description {
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 30px;
+}
+
+.theHow {
+    padding-top: 10px;
+	background-color: #141A24;
+	padding-bottom: 100px;
+}
+
+.icon {
+	width: 40%;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    border: 1px solid maroon;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 90px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.design {
+	color: cyan;
+	font-weight: bold;
+}
+
+.ourTeam {
+	background-color: #fafafa;
+	padding-bottom: 100px;
+}
+
+.directors {
+	background-color: #fafafa;
+}
+
+.directors h2 {
+	text-align: center;
+	padding: 30px;
+	font-weight: bold;
+	width: 100%;
+}
+
+#firstPicture, #secondPicture, #thirdPicture {
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	border: 5px solid black;
+}
+
+#secondPicture {
+	background-image: url('/storage/images/OdeladeProfile.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.name {
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.rank {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.viewProfile {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid maroon;
+	background-color: #110033;
+	border-radius: 5px;
+	padding: 5px 20px;
+	color: white;
+	margin-left: 35%;
+	margin-top: 10px;
+}
+
+.aboutUs button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.aboutUs {
+	color: white;
+	padding-top: 70px;
+	background-color: #1B2028;
+	padding-bottom: 70px;
+	padding-left: 7%;
+}
+
+.aboutUs h3, .aboutUs h5 {
+	width: 100%;
+}
+
+.aboutUs h5 {
+	color: purple;
+}
+
+.aboutUs h3 {
+	color: cyan;
+}
+
+.aboutUs #lastH3 {
+	margin-top: 30px;
+}
+
+.footer {
+	background-color: #21252C;
+}
+
+.footer input {
+	width: 90%;
+	background-color: #1B2028;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 5%;
+	border: 1px solid black;
+}
+
+textarea {
+	width: 90%;
+	border-radius: 2%;
+	background-color: #1B2028;
+	padding: 20px;
+	margin-left: 5%;
+	margin-top: 10px;
+	color: white;
+	border: 1px solid black;
+}
+
+.footer button {
+    border-radius: 5px;
+    color: maroon;
+    background-color: lightgreen;
+    border: 1px solid black;
+    float: right;
+    margin-right: 5%;
+    padding: 5px 15px;
+}
+
+.imagesDiv img {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.imagesDiv {
+	margin-top: 70px;
+}
+
