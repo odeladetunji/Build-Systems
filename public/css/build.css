@@ -189,6 +189,12 @@
 	background-size: cover;
 }
 
+#thirdPicture {
+	background-image: url('/storage/images/ife.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
 .name {
 	padding-top: 10px;
 	text-align: center;
