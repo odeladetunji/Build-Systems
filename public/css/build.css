@@ -178,7 +178,7 @@
 }
 
 #firstPicture {
-	background-image: url(/storage/images/effiong.png);
+	background-image: url('/storage/images/effiong.png');
 	background-size: cover;
 	background-position: center;
 }
