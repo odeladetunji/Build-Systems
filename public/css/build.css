@@ -23,7 +23,6 @@
  .headBanner {
    background-color: #1B2028;
    color: white;
-   padding-top: 20px;
    background-size: cover;
    background-position: center;
  }
@@ -90,18 +89,18 @@
 
 .subBanner button{
 	padding: 8px 30px;
-	border: 1px solid maroon;
+	border: 1px solid white;
 	border-radius: 20px;
 	cursor: pointer;
 	margin-top: 50px;
-	background-color: lightgreen;
-	color: default;
-	font-size: 15px;
+	background-color: green;
+	color: white;
+	font-size: 13px;
 	font-weight: bold;
 }
 
 .subBanner button:hover {
-	background-color: green;
+	background-color: black;
 	color: white;
 }
 
