@@ -184,13 +184,11 @@
 }
 
 #secondPicture {
-	background-image: url('/storage/images/OdeladeProfile.jpg');
 	background-position: center;
 	background-size: cover;
 }
 
 #thirdPicture {
-	background-image: url('/storage/images/ife.jpeg');
 	background-position: center;
 	background-size: cover;
 }

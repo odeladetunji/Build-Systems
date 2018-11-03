@@ -67,7 +67,7 @@
         				<i class="fa fa-cog icon"></i>
         				<p class="design">Automate Proceesses</p>
         				<p class="description">The design stage is followed by choosing technology stacks/framework and using the technologies to write algorithms for automation of the processes detailed in the design stage.
-</p>
+                                        </p>
         			</div>
         		</div>
         		<div class="col-sm-4">
@@ -86,19 +86,19 @@
         	</div>
         	<div class="row ourTeam">
         		<div class="col-sm-4 team">
-        			<div id="firstPicture"></div>
+        			<div id="firstPicture" style="background-image: url({{ asset('/storage/images/effiong.png') }});";"></div>
         			<p class="name">Segun Offiong</p>
         			<p class="rank">Chief Strategist/Project Manager</p>
         			<button class="viewProfile">view profile</button>
         		</div>
         		<div class="col-sm-4 team">
-        			<div id="secondPicture"></div>
+        			<div id="secondPicture" style="background-image: url( {{ asset('/storage/images/OdeladeProfile.jpg') }});"></div>
         			<p class="name">Odelade Olatunji</p>
         			<p class="rank">Software Architect (Lead Engineer)</p>
         			<button class="viewProfile">view profile</button>
         		</div>
         		<div class="col-sm-4 team">
-        			<div id="thirdPicture"></div>
+        			<div id="thirdPicture" style="background-image: url({{ asset('/storage/images/ife.jpeg') }});"></div>
         			<p class="name">Ayo</p>
         			<p class="rank">Brand Manager/Content Developer</p>
         			<button class="viewProfile">view profile</button>
