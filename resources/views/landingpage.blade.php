@@ -36,7 +36,7 @@
         		    </ul>
         		</div>
         	</div>
-        	<div class="row headBanner">
+        	<div class="row headBanner" style="background-image: url({{ asset('/storage/images/buildsystempix.jpg') }});">
         		<div class="col-12-sm subBanner">
 		        		<ul id="subHeadNavigation">
 		        			<li id="buildlist">Contact</li>
@@ -86,7 +86,7 @@
         	</div>
         	<div class="row ourTeam">
         		<div class="col-sm-4 team">
-        			<div id="firstPicture" style="background-image: url({{ asset('/storage/images/effiong.png') }});";"></div>
+        			<div id="firstPicture" style="background-image: url({{ asset('/storage/images/effiong.png') }});"></div>
         			<p class="name">Segun Offiong</p>
         			<p class="rank">Chief Strategist/Project Manager</p>
         			<button class="viewProfile">view profile</button>
