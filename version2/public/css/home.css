@@ -19,7 +19,7 @@
   padding-top: 30px;
   padding-left: 40px;
   padding-right: 40px;
-  background-color: #001428;
+  background-color: #0E131F;
 }
 
 .forQuote {
@@ -48,12 +48,12 @@
 }
 
 .footer {
-  background-color: #001428;
+  background-color: #0E131F;
   padding-top: 50px;
 }
 
 .footerUl {
-  background-color: #001428;
+  background-color: #0E131F;
   color: white;
   padding-left: 10px !important;
 }
@@ -100,18 +100,18 @@
 
 .Copyright {
   border-top: 1px solid white;
-  background-color: black;
+  background-color: #0E131F;
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 20px;
 }
 
 .forQuote {
-  background-color: #fafafa;
+  background-color: #FFF8F8;
 }
 
 .forQuote div {
-  background-color: #fafafa;
+  background-color: #FFF8F8;
   padding-top: 20px;
   padding-bottom: 20px;
   /* border-top: 1px solid black;
@@ -122,11 +122,11 @@
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #fafafa;
+  background-color: #FFF8F8;
 }
 
 .forQuote i {
-  background-color: #6A9ED2;
+  background-color: #70B9FC;
   padding: 15px;
   font-size: 25px;
   color: white;
@@ -161,7 +161,7 @@ textarea
 .forSubmitButton button {
   padding: 10px 40px;
   font-size: 20px;
-  background-color: orange;
+  background-color: #FD8023;
   border-radius: 5px;
   color: white;
   margin-left: 40%;
@@ -188,7 +188,7 @@ textarea
 
 .header {
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #FFF8F8;
   padding-top: 25px;
   padding-bottom: 10px;
 }
@@ -232,11 +232,13 @@ textarea
   padding: 40px;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #FFF8F8;
 }
 
 .resources h3 {
   text-align: center;
   padding: 20px;
+  background-color: #FFF8F8;
 }
 
 .resources p {
@@ -246,7 +248,7 @@ textarea
 .howWeAutomate {
   width: 100%;
   padding: 40px;
-  background-color: #110033;
+  background-color: #0E131F;
 }
 
 .howWeAutomate h3 {
@@ -272,7 +274,7 @@ textarea
   width: 150px;
   height: 40px;
   margin-right: 15px;
-  background-color: green;
+  background-color: #30548F;
   border-radius: 50%;
 }
 
@@ -291,6 +293,7 @@ textarea
 .technology {
   width: 100%;
   padding: 40px;
+  background-color: #FFF8F8;
 }
 
 .technology h3 {
