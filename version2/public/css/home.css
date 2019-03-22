@@ -1,0 +1,284 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.body {
+  padding-right: 0px;
+}
+
+.row {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.lastSection {
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #110033;
+}
+
+.forQuote {
+  width: 100%;
+}
+
+.first {
+   border-top: 1px solid black;;
+}
+
+.first div:first-child {
+  border-right: 1px solid black;
+}
+
+.second {
+   border-top: 1px solid black;;
+   border-bottom: 1px solid black;
+}
+
+.first div:nth-child(2) {
+    border-right: 1px solid black;
+}
+
+.footer {
+  background-color: #001428;
+  padding-top: 50px;
+}
+
+.footerUl {
+  background-color: #001428;
+  color: white;
+}
+
+.footerUl li {
+  list-style-type: none;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.footer li:first-child {
+  font-size: 17px;
+  color: orange;
+}
+
+.footer li:hover {
+  color: orange;
+}
+
+.Copyright p {
+  font-size: 12px;
+  color: silver;
+  color: silver;
+  text-align: center;
+}
+
+.Copyright i {
+  color: silver;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.Copyright {
+  border-top: 1px solid white;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.forQuote {
+  background-color: #fafafa;
+}
+
+.forQuote div {
+  background-color: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
+}
+
+.forQuote h3 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fafafa;
+}
+
+.forQuote i {
+  background-color: #6A9ED2;
+  padding: 15px;
+  font-size: 25px;
+  color: white;
+  border-radius: 50%;
+}
+
+.forQuote input {
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+  width: 70%;
+}
+
+textarea
+{
+  width: 98%;
+  padding: 20px;
+  height: 150px;
+  border: none;
+  border: 1px solid silver;
+  margin-left: 1% !important;
+  margin-top: 10px !important;
+  margin-bottom: 50px !important;
+}
+
+.forSubmitButton {
+  width: 100%;
+  padding-top: 70px !important;
+  border-top: 1px solid #eeeeee;
+}
+
+.forSubmitButton button {
+  padding: 10px 40px;
+  font-size: 20px;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  margin-left: 40%;
+  margin-bottom: 50px;
+}
+
+.forSubmitButton i {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.sec div:first-child {
+
+}
+
+.sec div:nth-child(1) {
+  border-right: 1px solid black;
+}
+
+.sec div:nth-child(2) {
+  border-right: 1px solid black;
+}
+
+.header {
+  width: 100%;
+  background-color: #eeeeee;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.header ul {
+  background-color: transparent;
+}
+
+.header ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: black;
+}
+
+.header ul li:first-child {
+  padding-right: 100px;
+}
+
+.whoWeAre {
+  width: 100%;
+  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.whoWeAre h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.whoWeAre p {
+  text-align: justify;
+}
+
+.resources {
+  width: 100%;
+  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.resources h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.resources p {
+  text-align: justify;
+}
+
+.howWeAutomate {
+  width: 100%;
+  padding: 40px;
+  background-color: #110033;
+}
+
+.howWeAutomate h3 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.contents {
+  width: 100%;
+}
+
+.a_section {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.a_section p {
+  text-align: justify;
+}
+
+.a_section img {
+  width: 150px;
+  height: 40px;
+  margin-right: 15px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.a_section div {
+
+}
+
+.a_section div h6 {
+  color: white;
+}
+
+.a_section div p {
+  color: silver;
+}
+
+.technology {
+  width: 100%;
+  padding: 40px;
+}
+
+.technology h3 {
+  text-align: center;
+  padding: 20px;
+}
