@@ -92,7 +92,7 @@ We are ready each day of the week, 24 hours day to partner with you on any proje
                  <input type="number" placeholder="Skype ID/WatsApp No">
                </div>
             </div>
-              <i class="far fa-sticky-note"></i><br>
+              <i class="far fa-sticky-note" id="note"></i><br>
               <textarea placeholder="Send us a message"></textarea>
             <div class="forSubmitButton">
                  <button>SUBMIT A REQUEST <span><i class="fas fa-arrow-right"></i></span></button>

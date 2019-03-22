@@ -10,7 +10,7 @@
 .row {
   padding-left: 0px;
   padding-right: 0px;
-  margin-left: 0px;
+  /* margin-left: 0px; */
   margin-right: 0px;
 }
 
@@ -19,7 +19,7 @@
   padding-top: 30px;
   padding-left: 40px;
   padding-right: 40px;
-  background-color: #110033;
+  background-color: #001428;
 }
 
 .forQuote {
@@ -28,6 +28,8 @@
 
 .first {
    border-top: 1px solid black;;
+   margin-left: 40px !important;
+   margin-right: 40px !important;
 }
 
 .first div:first-child {
@@ -37,6 +39,8 @@
 .second {
    border-top: 1px solid black;;
    border-bottom: 1px solid black;
+   margin-left: 40px !important;
+   margin-right: 40px !important;
 }
 
 .first div:nth-child(2) {
@@ -51,24 +55,34 @@
 .footerUl {
   background-color: #001428;
   color: white;
+  padding-left: 10px !important;
 }
 
 .footerUl li {
   list-style-type: none;
   font-size: 14px;
   padding: 5px;
-  text-align: center;
-  padding-left: 20px;
+  color: silver;
+  /* text-align: center; */
+  /* padding-left: 20px; */
   cursor: pointer;
 }
 
+
 .footer li:first-child {
   font-size: 17px;
-  color: orange;
+  font-weight: bold;
+  color: white;
 }
 
 .footer li:hover {
   color: orange;
+}
+
+.Copyright {
+  /* width: 98%; */
+  margin-left: 1px !important;
+  margin-right: 1px !important;
 }
 
 .Copyright p {
@@ -128,12 +142,12 @@
 
 textarea
 {
-  width: 98%;
+  width: 93%;
   padding: 20px;
   height: 150px;
   border: none;
   border: 1px solid silver;
-  margin-left: 1% !important;
+  margin-left: 3% !important;
   margin-top: 10px !important;
   margin-bottom: 50px !important;
 }
@@ -281,4 +295,10 @@ textarea
 .technology h3 {
   text-align: center;
   padding: 20px;
+}
+
+#note {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 50px;
 }
