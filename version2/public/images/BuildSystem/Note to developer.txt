@@ -1,0 +1,4 @@
+All assets are same size with what appears on prototype
+
+You will be added to the team on Figma - you will then be able to view the CSS of prototype icluding 
+styles and type.

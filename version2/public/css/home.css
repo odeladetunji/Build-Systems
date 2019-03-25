@@ -120,9 +120,10 @@
 
 .forQuote h3 {
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 0px;
   background-color: #FFF8F8;
+  font-size: 20px;
 }
 
 .forQuote i {
@@ -190,6 +191,7 @@ textarea
   width: 100%;
   background-color: #FFF8F8;
   padding-top: 25px;
+  /* display: none; */
   padding-bottom: 10px;
 }
 
@@ -232,6 +234,8 @@ textarea
   padding: 40px;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: #FFF8F8;
 }
 
@@ -261,6 +265,24 @@ textarea
   width: 100%;
 }
 
+.contents div:first-child img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.contents div:nth-child(2) img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.contents div:nth-child(3) img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
 .a_section {
   display: flex;
   flex-wrap: nowrap;
@@ -270,13 +292,6 @@ textarea
   text-align: justify;
 }
 
-.a_section img {
-  width: 150px;
-  height: 40px;
-  margin-right: 15px;
-  background-color: #30548F;
-  border-radius: 50%;
-}
 
 .a_section div {
 
@@ -294,6 +309,7 @@ textarea
   width: 100%;
   padding: 40px;
   background-color: #FFF8F8;
+  padding-bottom: 100px;
 }
 
 .technology h3 {
@@ -305,4 +321,400 @@ textarea
   margin-bottom: 40px;
   margin-top: 40px;
   margin-left: 50px;
+}
+
+.about {
+  margin-right: 5px;
+  background-color: transparent;
+  width: 260px;
+  display: none;
+}
+
+.about li {
+   list-style-type: none;
+   display: inline-block;
+   color: #A49090;
+   background-color: transparent;
+   font-size: 14px;
+}
+
+.forAbout {
+  z-index: 2;
+  background-color: #FFF8F8;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 70px;
+  left: 10%;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #222121 !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.services {
+  margin-right: 5px;
+  background-color: transparent;
+  width: 300px;
+  display: none;
+}
+
+.services li {
+  font-size: 13px;
+}
+
+.forServices {
+  z-index: 2;
+  background-color: #FFF8F8;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 10%;
+  top: 70px;
+  padding-bottom: 20px;
+}
+
+.theTechnlogies {
+  margin-right: 5px;
+  background-color: transparent;
+  width: 180px;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.theTechnlogies li {
+  font-size: 13px;
+}
+
+.forTechnology {
+  z-index: 3;
+  background-color: #FFF8F8;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0%;
+  top: 70px;
+  padding-bottom: 20px;
+}
+
+.forCaseStudies {
+  z-index: 4;
+  background-color: #FFF8F8;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0%;
+  top: 70px;
+  padding-bottom: 20px;
+}
+
+.casestudies {
+  margin-right: 5px;
+  background-color: transparent;
+  width: 260px;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.casestudies li {
+  font-size: 13px;
+}
+
+.heading {
+  background-color: #FFF8F8;
+  border-bottom: 1px solid black;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.heading img {
+  width: 80%;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.heading i {
+  float: right;
+  margin-right: 10px;
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  /* margin-bottom: 10px; */
+}
+
+.secondHeader {
+  display: none;
+}
+
+.items {
+  background-color: #FFF8F8;
+}
+
+.items li {
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #FFF8F8;
+}
+
+.mobileForAbout {
+  width: 100%;
+  background-color: #FFF8F8;
+  display: none;
+}
+
+.mobileAbout li {
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.mobileForServices {
+  width: 100%;
+  background-color: #FFF8F8;
+  display: none;
+}
+
+.mobileServices li {
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.MobileTechnlogies li {
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.mobileForTechnology {
+  width: 100%;
+  background-color: #FFF8F8;
+  display: none;
+}
+
+.MobileTechnlogies li:first-child {
+  color: #4A9BFB;
+}
+
+.MobileForCaseStudies {
+  width: 100%;
+  background-color: #FFF8F8;
+  display: none;
+}
+
+.mobileCasestudies li {
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.technologylist {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technologylist img {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.forResources {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.forResources div {
+  width: 13%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.forResources div p {
+  color: #274D8A;
+  /* text-align: center; */
+  padding: 0px;
+  width: 100%;
+  /* padding-bottom: 2px; */
+  margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 360px) {
+
+  .header {
+    display: none;
+  }
+  .secondHeader {
+    display: block;
+  }
+  .forQuote input {
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .forQuote i {
+    background-color: #70B9FC;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .first {
+     border-top: none;
+     margin-left: 0px !important;
+     margin-right: 1px !important;
+     padding-bottom: 0px !important;
+  }
+
+  .first div {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .second div {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .second {
+     border-top: none;
+     padding-top: 5px !important;
+     margin-left: 0px !important;
+     margin-right: 1px !important;
+  }
+
+
+  .lastSection {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0E131F;
+  }
+
+  .forSubmitButton button {
+    padding: 10px 40px;
+    font-size: 15px;
+    background-color: #FD8023;
+    margin-left: 7.5%;
+    margin-bottom: 50px;
+  }
+
+  .forSubmitButton button i {
+    background-color: #FD8023;
+  }
+
+  textarea
+  {
+    width: 93%;
+    padding: 20px;
+    height: 300px;
+    border: none;
+    border: 1px solid silver;
+    margin-left: 3% !important;
+    margin-top: 10px !important;
+    margin-bottom: 50px !important;
+  }
+
+  #note {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .forSubmitButton {
+    width: 100%;
+    padding-top: 10px !important;
+    border-top: none;
+  }
+
+
+  .whoWeAre {
+    width: 100%;
+    padding: 40px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+  }
+
+  .howWeAutomate {
+    width: 100%;
+    padding: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #0E131F;
+  }
+
+  .technology {
+    width: 100%;
+    padding: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #FFF8F8;
+    padding-bottom: 100px;
+  }
+
+  .technology h3 {
+    /* text-align: center; */
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .whoWeAre h3 {
+    font-size: 20px;
+  }
+
+
+  .howWeAutomate h3 {
+    /* text-align: center; */
+    /* padding: 20px; */
+    font-size: 22px;
+    /* color: white; */
+  }
+
+  .forResources div {
+    width: 24%;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .forResources div img {
+    width: 100%;
+  }
+
+  .forResources {
+    padding-top: 10px;
+  }
+
+
+  .resources h3 {
+    /* text-align: center; */
+    font-size: 20px;
+    /* background-color: #FFF8F8; */
+  }
+
+
+
 }

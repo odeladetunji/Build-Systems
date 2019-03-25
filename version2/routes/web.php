@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('homepage');
 });
+
+Route::get('/aboutus', function (){
+    return view('aboutus');
+});
+
+Route::get('/contactus', function () {
+    return view('contactus');
+});
+
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});

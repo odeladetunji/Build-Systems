@@ -3,7 +3,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BuildSystems</title>
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -12,36 +13,289 @@
      <div class="header">
          <ul>
            <li>BuildSystems</li>
-           <li>Home
+           <li><a href="/">Home</a></li>
+           <li><a href="/aboutus">About Us
+              <div class="forAbout">
+                <ul class="about">
+                  <li>About Us</li>
+                  <li>Who we are</li><br>
+                  <li>Our Resources</li>
+                </ul>
 
+                <ul class="about">
+                  <li>Clients Testimonials</li>
+                  <li>Jobs</li><br>
+                  <li>Partner with Us</li>
+                </ul>
+
+                <ul class="about">
+                  <li>Technology Partners</li>
+                  <li>Certifications</li>
+                  <li>Confidentiality</li>
+                </ul>
+              </div>
+           </a></li>
+           <li><a href="/services">Services
+               <div class="forServices">
+                 <ul class="services">
+                   <li>business Development Solutions</li>
+                   <li>Strategic Business growth Solutions</li>
+                   <li>Start Up Advisory Services</li>
+                   <li>Market Dynamics Analysis</li>
+                   <li>Product Perfomance and Innovative Solutions</li>
+                 </ul>
+
+                 <ul class="services">
+                   <li>Software Development Solutions</li>
+                   <li>Custom Web and Mobile Development</li>
+                   <li>Search Engine Optimization (SEO) & Digital Marketing</li>
+                   <li>Data warehousing & Analytics</li>
+                   <li>Cloud Hosting and Supports</li>
+                 </ul>
+
+                 <ul class="services">
+                   <li>Hardware Technology</li>
+                   <li>Internet of Things</li><br>
+                   <li>Robotics</li><br>
+                   <li>Artificial Intelligence</li>
+                   <li>IT Support System</li>
+                 </ul>
+               </div>
+           </a></li>
+           <li>Technologies
+             <div class="forTechnology">
+               <ul class="theTechnlogies">
+                 <li>Front End</li>
+                 <li>React JS</li>
+                 <li>Angular JS</li>
+                 <li>Vue JS</li>
+                 <li>React Native</li>
+               </ul>
+               <ul class="theTechnlogies">
+                 <li>Backend</li>
+                 <li>PHP</li>
+                 <li>ASP.Net MVC</li>
+                 <li>Angular</li>
+                 <li>JavaScript</li><br>
+                 <li>Java</li>
+                 <li>Spring MVC</li>
+                 <li>Nodejs</li>
+               </ul>
+               <ul class="theTechnlogies">
+                 <li>Framework</li>
+                 <li>WordPress</li>
+                 <li>CakePhp</li>
+                 <li>Laravel</li><br>
+                 <li>Django</li><br>
+                 <li>Electron</li>
+               </ul>
+               <ul class="theTechnlogies">
+                 <li>Platforms</li>
+                 <li>Magento</li>
+                 <li>Woocommerce</li>
+                 <li>BigCommerce</li>
+                 <li>Shopify</li>
+                 <li>Salesforce</li>
+               </ul>
+               <ul class="theTechnlogies">
+                 <li>Database</li>
+                 <li>MySQL</li><br>
+                 <li>NoSQL</li>
+                 <li>Oracle DB</li>
+                 <li>PostgreSQL</li>
+                 <li>MSSQL</li>
+                 <li>MongoDB</li>
+                 <li>FireBase</li>
+                 <li>FireStone</li>
+               </ul>
+               <ul class="theTechnlogies">
+                 <li>Mobile Apps</li>
+                 <li>iOS</li><br>
+                 <li>Android</li>
+                 <li>Cardova</li><br>
+                 <li>Ionic</li>
+               </ul>
+             </div>
            </li>
-           <li>About Us</li>
-           <li>Services</li>
-           <li>Technologies</li>
-           <li>Portfolio</li>
-           <li>Case Studies</li>
-           <li>Contact Us</li>
+           <li><a href="/portfolio">Portfolio</a></li>
+           <li>Case Studies
+             <div class="forCaseStudies">
+                <ul class="casestudies">
+                  <li>Software & Technology</li>
+                  <li>Travel Hospitality</li><br>
+                  <li>Real Estate</li>
+                </ul>
+
+                <ul class="casestudies">
+                  <li>Education</li>
+                  <li>Manufacturing</li><br>
+                  <li>Sports</li>
+                </ul>
+
+                <ul class="casestudies">
+                  <li>Retail & eCommerce</li>
+                  <li>Health & Life Science</li>
+                  <li>Energy & Utilities</li>
+                </ul>
+
+                <ul class="casestudies">
+                  <li>Logistic & Shipping</li>
+                  <li>Media Entertainment</li>
+                  <li>Automotive</li>
+                </ul>
+             </div>
+           </li>
+           <li><a href="/contactus"> Contact Us</a></li>
          </ul>
+    </div>
+    <div class="secondHeader">
+        <div class="heading">
+          <img src="{{ asset('/images/BuildSystem/Home/logo.png')}}" alt="">
+          <i class="fas fa-bars" onClick='toggleHeader()'></i>
+        </div>
+        <ul class="items">
+          <li><a href="/">Home</a></li>
+          <li id='aboutus2' onclick="showStack(this)">About Us
+            <div class="mobileForAbout aboutus2">
+              <ul class="mobileAbout">
+                <li><a href="/aboutus">About Us</a></li>
+                <li><a href="/aboutus">Who we are</a></li>
+                <li><a href="/aboutus">Our Resources</a></li><br>
+                <li><a href="/aboutus">Clients Testimonials</a></li>
+                <li><a href="/aboutus">Jobs</a></li>
+                <li><a href="/aboutus">Partner with Us</a></li><br>
+                <li><a href="/aboutus">Technology Partners</a></li>
+                <li><a href="/aboutus">Certifications</a></li>
+                <li><a href="/aboutus">Confidentiality</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="services2" onclick="showStack(this)">Services
+            <div class="mobileForServices services2">
+              <ul class="mobileServices">
+                <li><a href="/services">business Development Solutions</a></li>
+                <li><a href="/services">Strategic Business growth Solutions</a></li>
+                <li><a href="/services">Start Up Advisory Services</a></li>
+                <li><a href="/services">Market Dynamics Analysis</a></li>
+                <li><a href="/services">Product Perfomance and Innovative Solutions</a></li><br>
+                <li><a href="/services">Software Development Solutions</a></li>
+                <li><a href="/services">Custom Web and Mobile Development</a></li>
+                <li><a href="/services">Search Engine Optimization (SEO) & Digital Marketing</a></li>
+                <li><a href="/services">Data warehousing & Analytics</a></li>
+                <li><a href="/services">Cloud Hosting and Supports</a></li><br>
+                <li><a href="/services">Hardware Technology</a></li>
+                <li><a href="/services">Internet of Things</a></li>
+                <li><a href="/services">Robotics</a></li>
+                <li><a href="/services">Artificial Intelligence</a></li>
+                <li><a href="/services">IT Support System</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="technology2" onclick="showStack(this)">Technology
+            <div class="mobileForTechnology technology2">
+              <ul class="MobileTechnlogies">
+                <li>Front End</li>
+                <li>React JS</li>
+                <li>Angular JS</li>
+                <li>Vue JS</li>
+                <li>React Native</li><br>
+              </ul>
+              <ul class="MobileTechnlogies">
+                <li>Backend</li>
+                <li>PHP</li>
+                <li>ASP.Net MVC</li>
+                <li>Angular</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Spring MVC</li>
+                <li>Nodejs</li><br>
+              </ul>
+              <ul class="MobileTechnlogies">
+                <li>Framework</li>
+                <li>WordPress</li>
+                <li>CakePhp</li>
+                <li>Laravel</li>
+                <li>Django</li>
+                <li>Electron</li><br>
+              </ul>
+              <ul class="MobileTechnlogies">
+                <li>Platforms</li>
+                <li>Magento</li>
+                <li>Woocommerce</li>
+                <li>BigCommerce</li>
+                <li>Shopify</li>
+                <li>Salesforce</li><br>
+              </ul>
+              <ul class="MobileTechnlogies">
+                <li>Database</li>
+                <li>MySQL</li>
+                <li>NoSQL</li>
+                <li>Oracle DB</li>
+                <li>PostgreSQL</li>
+                <li>MSSQL</li>
+                <li>MongoDB</li>
+                <li>FireBase</li>
+                <li>FireStone</li><br>
+              </ul>
+              <ul class="MobileTechnlogies">
+                <li>Mobile Apps</li>
+                <li>iOS</li>
+                <li>Android</li>
+                <li>Cardova</li>
+                <li>Ionic</li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="/Portfolio">Portfolio</a></li>
+          <li id='casestudies2' onclick="showStack(this)">Case Studies
+            <div class="MobileForCaseStudies casestudies2">
+               <ul class="mobileCasestudies">
+                 <li>Software & Technology</li>
+                 <li>Travel Hospitality</li>
+                 <li>Real Estate</li><br>
+               </ul>
+
+               <ul class="mobileCasestudies">
+                 <li>Education</li>
+                 <li>Manufacturing</li>
+                 <li>Sports</li><br>
+               </ul>
+
+               <ul class="mobileCasestudies">
+                 <li>Retail & eCommerce</li>
+                 <li>Health & Life Science</li>
+                 <li>Energy & Utilities</li><br>
+               </ul>
+
+               <ul class="mobileCasestudies">
+                 <li>Logistic & Shipping</li>
+                 <li>Media Entertainment</li>
+                 <li>Automotive</li>
+               </ul>
+            </div>
+          </a></li>
+          <li><a href="/contactus">Contact Us</a></li>
+        </ul>
     </div>
      <div class="howWeAutomate">
          <h3>How We Automate Processes</h3>
          <div class="row contents">
             <div class="col-md-4 a_section">
-              <img src="" alt="">
+              <img src="{{ asset('/images/BuildSystem/Home/DesignSystemsIcon.png')}}" alt="">
               <div>
                 <h6>Design Systems</h6>
                 <p>This first stage is were we work in sync with clients to develop detailed documents of the activities our clients do in their organisations. we study and come up with a flow diagram of the activities.</p>
               </div>
             </div>
             <div class="col-md-4 a_section">
-              <img src="" alt="">
+              <img src="{{ asset('/images/BuildSystem/Home/AutoProcIcon.png')}}" alt="">
               <div>
                 <h6>Automate Processes</h6>
                 <p>The design stage is followed by choosing technology stacks/framework and using the technologies to write algorithms for automation of the processes detailed in the design stage.</p>
               </div>
             </div>
             <div class="col-md-4 a_section">
-              <img src="" alt="">
+              <img src="{{ asset('/images/BuildSystem/Home/ImplementIcon.png')}}" alt="">
               <div>
                 <h6>Impliment</h6>
                 <p>The final stage, this is were the finished products are tested and deployed to the nessary environments or machines for consumption.</p>
@@ -51,6 +305,18 @@
      </div>
      <div class="technology">
         <h3>Technologies</h3>
+        <div class="technologylist">
+          <img src="{{ asset('/images/BuildSystem/Home/Java_Horizontalcopy.png')}}" alt="">
+          <img src="{{ asset('/images/BuildSystem/Home/02-javascript-1 copy.png')}}" alt="">
+          <img src="{{ asset('/images/BuildSystem/Home/03-react-1 copy.png')}}" alt="">
+          <img src="{{ asset('/images/BuildSystem/Home/04-AngularJS copy.png')}}" alt="">
+          <img src="{{ asset('/images/BuildSystem/Home/05-vuejs copy.png')}}" alt="">
+          <img src="{{ asset('/images/BuildSystem/Home/07-Node-JS copy.png')}}" alt="">
+          <img src="{{ asset('/images/BuildSystem/Home/11-react-Native-1 copy.png')}}" alt="">
+          <img src="{{ asset('/images/BuildSystem/Home/12-php-1 copy.png')}}" alt="">
+          <img src="{{ asset('/images/BuildSystem/Home/14-html-5 copy.png')}}" alt="">
+          <img src="{{ asset('/images/BuildSystem/Home/13-css3 copy.png')}}" alt="">
+        </div>
      </div>
      <div class="whoWeAre">
        <h3>Who We are</h3>
@@ -61,6 +327,37 @@ We are ready each day of the week, 24 hours day to partner with you on any proje
      <div class="resources">
          <h3>Resources</h3>
          <p>At Build Systems, we pride our-self with our team of High skilled IT professionals in the area of Programming, Data Analytics, Project Management, UI/UX Designing, Digital Marketing, Research & Development (R&D) that are well experienced and devoted to ensuring you get solutions that are second to none anywhere in the world. Each team are fully equipped with an updated robust data base of industry information and smart workstation to give you world-class solution.Our success story has been our team’s ability to deliver and align the best solutions with the client project.Our other resource includes: </p>
+         <div class="forResources">
+            <div>
+                <img src="{{ asset('/images/BuildSystem/Home/001-24-hours-delivery.png')}}" alt="">
+                <p>24/7 Powered</p>
+                <p>System Support</p>
+            </div>
+            <div>
+                <img src="{{ asset('/images/BuildSystem/Home/005-cloud.png')}}" alt="">
+                <p>Cloud Based</p>
+                <p>Resources</p>
+            </div>
+            <div>
+               <img src="{{ asset('/images/BuildSystem/Home/003-firewall.png')}}" alt="">
+               <p>Firewall Gateway</p>
+            </div>
+            <div>
+              <img src="{{ asset('/images/BuildSystem/Home/004-backup.png')}}" alt="">
+              <p>Regular Data</p>
+              <p>Backups</p>
+            </div>
+            <div>
+              <img src="{{ asset('/images/BuildSystem/Home/unix.png')}}" alt="">
+              <p>Unix Based</p>
+              <p>Backups</p>
+            </div>
+            <div>
+              <img src="{{ asset('/images/BuildSystem/Home/disaster recovery.png')}}" alt="">
+              <p>Provision of Disaster</p>
+              <p>Recovery</p>
+            </div>
+         </div>
      </div>
      <div class="lastSection">
          <div class="forQuote">
@@ -163,5 +460,30 @@ We are ready each day of the week, 24 hours day to partner with you on any proje
             </div>
          </div>
      </div>
+     <script type="text/javascript">
+         function showStack(param) {
+             var elem = param.id;
+             var element = document.getElementsByClassName(elem)[0];
+             var visibility = element.style.display;
+             if(visibility == "none" || visibility == "")
+                 element.style.display = "block";
+             if(visibility != "none")
+                 element.style.display = "none";
+         }
+
+         function toggleHeader () {
+            var elem = document.getElementsByClassName("items")[0];
+            if(elem.style.display == "" || elem.style.display == "none"){
+               elem.style.display = "block";
+               return;
+            }
+
+            if(elem.style.display != "" || elem.style.display != "none"){
+               elem.style.display = "none";
+               return;
+            }
+
+         }
+     </script>
   </body>
 </html>
