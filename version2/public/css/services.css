@@ -1,0 +1,129 @@
+
+.row {
+  margin-right: 0px !important;
+}
+.header {
+  width: 100%;
+  background-color: #70B9FC;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.header ul {
+  background-color: transparent;
+}
+
+.header ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   cursor: pointer;
+   color: white;
+}
+
+a {
+  color: white !important;
+}
+
+.header ul li:first-child {
+  padding-right: 100px;
+}
+
+.theServices h3 {
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.theServices h3:first-child {
+  color: white;
+  font-size: 25px;
+}
+
+.theServices {
+  width: 55%;
+  position: absolute;
+  top: 120px;
+  left: 40px;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.theServices p {
+  color: black;
+  padding: 15px;
+  padding-left: 0px;
+  text-align: justify;
+}
+
+.aboutServices img {
+  padding-top: 10px;
+  right: 40px;
+  top: 90px;
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+}
+
+.aboutServices {
+  padding-bottom: 70px;
+  width: 100%;
+  position: static;
+}
+
+.lastSection {
+
+}
+
+.remainingP {
+  margin-top: 320px;
+}
+
+.remainingP p {
+  padding: 40px;
+  color: black;
+  text-align: justify;
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  background-color: #70B9FC !important;
+}
+
+
+@media screen and (max-width: 360px) {
+  .remainingP p {
+    padding: 15px;
+  }
+
+  .theServices h3 {
+    font-size: 20px;
+  }
+
+  .theServices {
+    left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 671px) and (min-width: 360px) {
+  .remainingP p {
+    padding: 15px;
+  }
+
+  .theServices h3 {
+    font-size: 20px;
+  }
+
+  .theAbout {
+    left: 20px;
+  }
+
+  .remainingP {
+
+  }
+
+}

@@ -1,0 +1,169 @@
+
+.row {
+  margin-right: 0px !important;
+}
+.header {
+  width: 100%;
+  background-color: #70B9FC;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.header ul {
+  background-color: transparent;
+}
+
+.header ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   cursor: pointer;
+   color: white;
+}
+
+a {
+  color: white !important;
+}
+
+.header ul li:first-child {
+  padding-right: 100px;
+}
+
+.forDetails h3:first-child {
+  color: white;
+  font-size: 25px;
+}
+
+.forDetails h3 {
+  /* padding-left: 40px; */
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.forDetails {
+  width: 55%;
+  position: absolute;
+  top: 120px;
+  left: 40px;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.forDetails p {
+  color: black;
+  padding: 15px;
+  padding-left: 0px;
+  text-align: justify;
+}
+
+.contactBanner img {
+  padding-top: 10px;
+  right: 40px;
+  top: 190px;
+  position: absolute;
+  z-index: 1;
+  width: 35%;
+}
+
+.contactBanner {
+  padding-bottom: 300px;
+  width: 100%;
+  position: static;
+}
+
+.lastSection {
+  /* margin-top: 10px; */
+}
+
+.remainingP {
+  margin-top: 320px;
+}
+
+.remainingP p {
+  padding: 40px;
+  color: black;
+  text-align: justify;
+  position: relative;
+  z-index: 2;
+}
+
+.contactDetails {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 0px;
+}
+
+.contactDetails p {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contactDetails i {
+   padding: 10px;
+   padding-left: 0px;
+   background-color: transparent;
+   color: black;
+   border: none;
+   margin-right: 10px;
+   margin-top: 10px;
+}
+
+body {
+  background-color: #70B9FC !important;
+}
+
+.forMap {
+  width: 90%;
+  height: 500px;
+  /* margin-top: 400px; */
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  top: 670px;
+  background-position: center;
+  background-image: cover;
+}
+
+.emptySpace {
+  height: 400px;
+  background-color:  #FFF8F8;
+  margin-top: 400px;
+}
+
+@media screen and (max-width: 360px) {
+  .remainingP p {
+    padding: 15px;
+  }
+
+  .forDetails h3 {
+    font-size: 20px;
+  }
+
+  .forDetails {
+    left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 671px) and (min-width: 360px) {
+  .remainingP p {
+    padding: 15px;
+  }
+
+  .forDetails h3 {
+    font-size: 20px;
+  }
+
+  .forDetails {
+    left: 20px;
+  }
+
+  .remainingP {
+
+  }
+
+}

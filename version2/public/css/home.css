@@ -3,14 +3,14 @@
   margin: 0px;
 }
 
-.body {
+body {
   padding-right: 0px;
+  background-color: #FFF8F8 !important;
 }
 
 .row {
   padding-left: 0px;
   padding-right: 0px;
-  /* margin-left: 0px; */
   margin-right: 0px;
 }
 
@@ -251,6 +251,7 @@ textarea
 
 .howWeAutomate {
   width: 100%;
+  margin-top: 550px;
   padding: 40px;
   background-color: #0E131F;
 }
@@ -548,15 +549,114 @@ a:hover {
 
 .forResources div p {
   color: #274D8A;
-  /* text-align: center; */
   padding: 0px;
   width: 100%;
-  /* padding-bottom: 2px; */
   margin-bottom: 0px;
 }
 
+.bannerSlider {
+  background-color: #FFF8F8;
+  padding-bottom: 70px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+}
+
+.containBody {
+
+}
+
+.bannerSlider img {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  width: 55%;
+  background-color: #FFF8F8;
+}
+
+.design button {
+  color: white;
+  background-color: #FD8023;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.design h3:first-child {
+  margin-top: 100px;
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.design h3:nth-child(2) {
+  /* margin-top: 100px; */
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.design h3:nth-child(3) {
+  /* margin-top: 100px; */
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.design p {
+  margin-left: 20px;
+}
+
+.design {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  z-index: 2;
+  width: 45%;
+  padding-bottom: 70px;
+}
+
+#image1 {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin-top: 100px;
+  margin-right: 20px;
+  /* background-image: url('/images/BuildSystem/Home/someting.png'); */
+}
+
+.aboutPage {
+  background-color: #70B9FC;
+}
 
 @media screen and (max-width: 360px) {
+  .design h3 {
+    font-size: 30px !important;
+    margin-left: 10px !important;
+  }
+
+  .design button {
+    margin-left: 10px;
+  }
+
+  .design p {
+    margin-left: 10px;
+  }
+
+  .bannerSlider img {
+    width: 70%;
+    top: 10px;
+  }
+
+  .design {
+    width: 70%;
+    padding-bottom: 20px;
+  }
 
   .header {
     display: none;
@@ -687,10 +787,7 @@ a:hover {
 
 
   .howWeAutomate h3 {
-    /* text-align: center; */
-    /* padding: 20px; */
     font-size: 22px;
-    /* color: white; */
   }
 
   .forResources div {
@@ -708,13 +805,34 @@ a:hover {
     padding-top: 10px;
   }
 
-
   .resources h3 {
-    /* text-align: center; */
     font-size: 20px;
-    /* background-color: #FFF8F8; */
   }
 
+}
 
+@media screen and (max-width: 671px) and (min-width: 360px) {
+  .design h3 {
+    font-size: 25px !important;
+    margin-left: 10px !important;
+  }
+
+  .design button {
+    margin-left: 10px;
+  }
+
+  .design p {
+    margin-left: 10px;
+  }
+
+  .bannerSlider img {
+    width: 60%;
+    top: 10px;
+  }
+
+  .design {
+    width: 50%;
+    padding-bottom: 20px;
+  }
 
 }

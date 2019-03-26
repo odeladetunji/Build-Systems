@@ -146,6 +146,7 @@
              </div>
            </li>
            <li><a href="/contactus"> Contact Us</a></li>
+           <li><a href="/banner">banner</a></li>
          </ul>
     </div>
     <div class="secondHeader">
@@ -277,189 +278,202 @@
           <li><a href="/contactus">Contact Us</a></li>
         </ul>
     </div>
-     <div class="howWeAutomate">
-         <h3>How We Automate Processes</h3>
-         <div class="row contents">
-            <div class="col-md-4 a_section">
-              <img src="{{ asset('/images/BuildSystem/Home/DesignSystemsIcon.png')}}" alt="">
-              <div>
-                <h6>Design Systems</h6>
-                <p>This first stage is were we work in sync with clients to develop detailed documents of the activities our clients do in their organisations. we study and come up with a flow diagram of the activities.</p>
-              </div>
-            </div>
-            <div class="col-md-4 a_section">
-              <img src="{{ asset('/images/BuildSystem/Home/AutoProcIcon.png')}}" alt="">
-              <div>
-                <h6>Automate Processes</h6>
-                <p>The design stage is followed by choosing technology stacks/framework and using the technologies to write algorithms for automation of the processes detailed in the design stage.</p>
-              </div>
-            </div>
-            <div class="col-md-4 a_section">
-              <img src="{{ asset('/images/BuildSystem/Home/ImplementIcon.png')}}" alt="">
-              <div>
-                <h6>Impliment</h6>
-                <p>The final stage, this is were the finished products are tested and deployed to the nessary environments or machines for consumption.</p>
-              </div>
-            </div>
-         </div>
-     </div>
-     <div class="technology">
-        <h3>Technologies</h3>
-        <div class="technologylist">
-          <img src="{{ asset('/images/BuildSystem/Home/Java_Horizontalcopy.png')}}" alt="">
-          <img src="{{ asset('/images/BuildSystem/Home/02-javascript-1 copy.png')}}" alt="">
-          <img src="{{ asset('/images/BuildSystem/Home/03-react-1 copy.png')}}" alt="">
-          <img src="{{ asset('/images/BuildSystem/Home/04-AngularJS copy.png')}}" alt="">
-          <img src="{{ asset('/images/BuildSystem/Home/05-vuejs copy.png')}}" alt="">
-          <img src="{{ asset('/images/BuildSystem/Home/07-Node-JS copy.png')}}" alt="">
-          <img src="{{ asset('/images/BuildSystem/Home/11-react-Native-1 copy.png')}}" alt="">
-          <img src="{{ asset('/images/BuildSystem/Home/12-php-1 copy.png')}}" alt="">
-          <img src="{{ asset('/images/BuildSystem/Home/14-html-5 copy.png')}}" alt="">
-          <img src="{{ asset('/images/BuildSystem/Home/13-css3 copy.png')}}" alt="">
+    <div class="bannerSlider">
+        <div class="design">
+            <h3>Design, automate  and </h3>
+            <h3>implement any industrial</h3>
+            <h3>or business</h3>
+            <p>Whatever task your organisation is does everyday in a repetitive <br>
+              manner, we will automate it with algorithms to foster <br>greater productivity in your endevours</p>
+            <button>Contact Us <i></i></button>
         </div>
-     </div>
-     <div class="whoWeAre">
-       <h3>Who We are</h3>
-           <p>Build System is a Nigeria basedICT Company established to deliver superior and innovative High-Tech solutions for both our Offshore and Domestic clients. We offer comprehensive process automation for our corporate clients, SMEs and start-up businesses who are looking for simplified yet effective and innovative ways to run their daily operations.
-With our team of highly skilled developer and our partners across the globe, we are determine to contribute our share of innovative technology towards the United Nation (UN) Sustainable Development Goals (SDGs) 2030 Agenda which recognizes the need to develop knowledge-Base societies which frankly highlights the need for access to Information and Communication Technologies (ICTs) in different way to help resolve some of the social-economic challenges faced by different Nation with regards to Agriculture, Transportation, Healthcare, Qualitative Education, Affordable & Accessible Housing, etc.
-We are ready each day of the week, 24 hours day to partner with you on any project that requires our professional touch. Our support team is always online to 24/7 to attend to your request whenever the need arises. You can also request for a demo presentation on any of our software solution. Thank you as we look forward to a mutually beneficial working relationship with you.</p>
-     </div>
-     <div class="resources">
-         <h3>Resources</h3>
-         <p>At Build Systems, we pride our-self with our team of High skilled IT professionals in the area of Programming, Data Analytics, Project Management, UI/UX Designing, Digital Marketing, Research & Development (R&D) that are well experienced and devoted to ensuring you get solutions that are second to none anywhere in the world. Each team are fully equipped with an updated robust data base of industry information and smart workstation to give you world-class solution.Our success story has been our team’s ability to deliver and align the best solutions with the client project.Our other resource includes: </p>
-         <div class="forResources">
-            <div>
-                <img src="{{ asset('/images/BuildSystem/Home/001-24-hours-delivery.png')}}" alt="">
-                <p>24/7 Powered</p>
-                <p>System Support</p>
-            </div>
-            <div>
-                <img src="{{ asset('/images/BuildSystem/Home/005-cloud.png')}}" alt="">
-                <p>Cloud Based</p>
-                <p>Resources</p>
-            </div>
-            <div>
-               <img src="{{ asset('/images/BuildSystem/Home/003-firewall.png')}}" alt="">
-               <p>Firewall Gateway</p>
-            </div>
-            <div>
-              <img src="{{ asset('/images/BuildSystem/Home/004-backup.png')}}" alt="">
-              <p>Regular Data</p>
-              <p>Backups</p>
-            </div>
-            <div>
-              <img src="{{ asset('/images/BuildSystem/Home/unix.png')}}" alt="">
-              <p>Unix Based</p>
-              <p>Backups</p>
-            </div>
-            <div>
-              <img src="{{ asset('/images/BuildSystem/Home/disaster recovery.png')}}" alt="">
-              <p>Provision of Disaster</p>
-              <p>Recovery</p>
-            </div>
-         </div>
-     </div>
-     <div class="lastSection">
-         <div class="forQuote">
-            <h3>Request for a Quote</h3>
-            <div class="row first">
-               <div class="col-md-4">
-                 <i class="far fa-user"></i>
-                 <input type="text" placeholder="Name">
-               </div>
-               <div class="col-md-4">
-                 <i class="fas fa-envelope-square"></i>
-                 <input type="email" placeholder="Email Address">
-               </div>
-               <div class="col-md-4">
-                 <i class="fas fa-phone"></i>
-                 <input type="number" placeholder="Telephone">
-               </div>
-            </div>
+        <img src="{{ asset('/images/BuildSystem/Home/someting.png')}}" alt="">
+    </div>
+    <div class="containBody">
+      <div class="howWeAutomate">
+           <h3>How We Automate Processes</h3>
+           <div class="row contents">
+              <div class="col-md-4 a_section">
+                <img src="{{ asset('/images/BuildSystem/Home/DesignSystemsIcon.png')}}" alt="">
+                <div>
+                  <h6>Design Systems</h6>
+                  <p>This first stage is were we work in sync with clients to develop detailed documents of the activities our clients do in their organisations. we study and come up with a flow diagram of the activities.</p>
+                </div>
+              </div>
+              <div class="col-md-4 a_section">
+                <img src="{{ asset('/images/BuildSystem/Home/AutoProcIcon.png')}}" alt="">
+                <div>
+                  <h6>Automate Processes</h6>
+                  <p>The design stage is followed by choosing technology stacks/framework and using the technologies to write algorithms for automation of the processes detailed in the design stage.</p>
+                </div>
+              </div>
+              <div class="col-md-4 a_section">
+                <img src="{{ asset('/images/BuildSystem/Home/ImplementIcon.png')}}" alt="">
+                <div>
+                  <h6>Impliment</h6>
+                  <p>The final stage, this is were the finished products are tested and deployed to the nessary environments or machines for consumption.</p>
+                </div>
+              </div>
+           </div>
+       </div>
+      <div class="technology">
+          <h3>Technologies</h3>
+          <div class="technologylist">
+            <img src="{{ asset('/images/BuildSystem/Home/Java_Horizontalcopy.png')}}" alt="">
+            <img src="{{ asset('/images/BuildSystem/Home/02-javascript-1 copy.png')}}" alt="">
+            <img src="{{ asset('/images/BuildSystem/Home/03-react-1 copy.png')}}" alt="">
+            <img src="{{ asset('/images/BuildSystem/Home/04-AngularJS copy.png')}}" alt="">
+            <img src="{{ asset('/images/BuildSystem/Home/05-vuejs copy.png')}}" alt="">
+            <img src="{{ asset('/images/BuildSystem/Home/07-Node-JS copy.png')}}" alt="">
+            <img src="{{ asset('/images/BuildSystem/Home/11-react-Native-1 copy.png')}}" alt="">
+            <img src="{{ asset('/images/BuildSystem/Home/12-php-1 copy.png')}}" alt="">
+            <img src="{{ asset('/images/BuildSystem/Home/14-html-5 copy.png')}}" alt="">
+            <img src="{{ asset('/images/BuildSystem/Home/13-css3 copy.png')}}" alt="">
+          </div>
+       </div>
+       <div class="whoWeAre">
+         <h3>Who We are</h3>
+             <p>Build System is a Nigeria basedICT Company established to deliver superior and innovative High-Tech solutions for both our Offshore and Domestic clients. We offer comprehensive process automation for our corporate clients, SMEs and start-up businesses who are looking for simplified yet effective and innovative ways to run their daily operations.
+  With our team of highly skilled developer and our partners across the globe, we are determine to contribute our share of innovative technology towards the United Nation (UN) Sustainable Development Goals (SDGs) 2030 Agenda which recognizes the need to develop knowledge-Base societies which frankly highlights the need for access to Information and Communication Technologies (ICTs) in different way to help resolve some of the social-economic challenges faced by different Nation with regards to Agriculture, Transportation, Healthcare, Qualitative Education, Affordable & Accessible Housing, etc.
+  We are ready each day of the week, 24 hours day to partner with you on any project that requires our professional touch. Our support team is always online to 24/7 to attend to your request whenever the need arises. You can also request for a demo presentation on any of our software solution. Thank you as we look forward to a mutually beneficial working relationship with you.</p>
+       </div>
+       <div class="resources">
+           <h3>Resources</h3>
+           <p>At Build Systems, we pride our-self with our team of High skilled IT professionals in the area of Programming, Data Analytics, Project Management, UI/UX Designing, Digital Marketing, Research & Development (R&D) that are well experienced and devoted to ensuring you get solutions that are second to none anywhere in the world. Each team are fully equipped with an updated robust data base of industry information and smart workstation to give you world-class solution.Our success story has been our team’s ability to deliver and align the best solutions with the client project.Our other resource includes: </p>
+           <div class="forResources">
+              <div>
+                  <img src="{{ asset('/images/BuildSystem/Home/001-24-hours-delivery.png')}}" alt="">
+                  <p>24/7 Powered</p>
+                  <p>System Support</p>
+              </div>
+              <div>
+                  <img src="{{ asset('/images/BuildSystem/Home/005-cloud.png')}}" alt="">
+                  <p>Cloud Based</p>
+                  <p>Resources</p>
+              </div>
+              <div>
+                 <img src="{{ asset('/images/BuildSystem/Home/003-firewall.png')}}" alt="">
+                 <p>Firewall Gateway</p>
+              </div>
+              <div>
+                <img src="{{ asset('/images/BuildSystem/Home/004-backup.png')}}" alt="">
+                <p>Regular Data</p>
+                <p>Backups</p>
+              </div>
+              <div>
+                <img src="{{ asset('/images/BuildSystem/Home/unix.png')}}" alt="">
+                <p>Unix Based</p>
+                <p>Backups</p>
+              </div>
+              <div>
+                <img src="{{ asset('/images/BuildSystem/Home/disaster recovery.png')}}" alt="">
+                <p>Provision of Disaster</p>
+                <p>Recovery</p>
+              </div>
+           </div>
+       </div>
+       <div class="lastSection">
+           <div class="forQuote">
+              <h3>Request for a Quote</h3>
+              <div class="row first">
+                 <div class="col-md-4">
+                   <i class="far fa-user"></i>
+                   <input type="text" placeholder="Name">
+                 </div>
+                 <div class="col-md-4">
+                   <i class="fas fa-envelope-square"></i>
+                   <input type="email" placeholder="Email Address">
+                 </div>
+                 <div class="col-md-4">
+                   <i class="fas fa-phone"></i>
+                   <input type="number" placeholder="Telephone">
+                 </div>
+              </div>
 
-            <div class="row second sec">
-               <div class="col-md-4">
-                 <i class="fas fa-pound-sign"></i>
-                 <input type="text" placeholder="Your Budget">
-               </div>
-               <div class="col-md-4">
-                 <i class="fas fa-location-arrow"></i>
-                 <input type="email" placeholder="Country">
-               </div>
-               <div class="col-md-4">
-                 <i class="fab fa-skype"></i>
-                 <input type="number" placeholder="Skype ID/WatsApp No">
-               </div>
-            </div>
-              <i class="far fa-sticky-note" id="note"></i><br>
-              <textarea placeholder="Send us a message"></textarea>
-            <div class="forSubmitButton">
-                 <button>SUBMIT A REQUEST <span><i class="fas fa-arrow-right"></i></span></button>
-            </div>
-         </div>
-         <div class="row footer">
-            <ul class="col-md-3 footerUl">
-              <li>About Us</li>
-              <li> >Client Testimony</li>
-              <li> >Our Team</li>
-              <li> >Jobs</li>
-              <li> >Technology Partners</li>
-              <li> >Certifications</li>
-              <li> >Confidentiality</li>
-              <li> >Contact Us</li>
-            </ul>
-            <ul class="col-md-3 footerUl">
-              <li>Services</li>
-              <li> >Mobile Apps</li>
-              <li> >Software Solutions</li>
-              <li> >Web and Ecommerce</li>
-              <li> >Testing and QA</li>
-              <li> >Real Time Solutions</li>
-              <li> >Cloud</li>
-              <li> >View All</li>
-            </ul>
-            <ul class="col-md-3 footerUl">
-              <li>Technologies</li>
-              <li> >Web</li>
-              <li> >Framework</li>
-              <li> >Mobile Apps</li>
-              <li> >Platforms</li>
-              <li> >Database</li>
-            </ul>
-            <ul class="col-md-3 footerUl">
-              <li>Industries</li>
-              <li> >Software & Technology</li>
-              <li> >Retail & eCommerce</li>
-              <li> >Logistic & Shipping</li>
-              <li> >Travel & Hospitality</li>
-              <li> >Health & LiveScience</li>
-              <li> >View All</li>
-            </ul>
-            <ul class="col-md-3 footerUl">
-              <li>Case Studies</li>
-              <li> >eBook</li>
-              <li> >Webinar</li>
-              <li> >White Paper</li>
-              <li> >Infographics</li>
-              <li> >Tech Blog</li>
-              <li> >Retails Blog</li>
-              <li> >FAQs</li>
-            </ul>
-         </div>
-         <div class="row Copyright">
-            <div class="col-md-4">
-                <p>Copyright @ 2019 By BuildSystems</p>
-            </div>
-            <div class="col-md-4">
-               <p>Contact Us|Sitemap</p>
-            </div>
-            <div class="col-md-4">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-slack-hash"></i>
-            </div>
-         </div>
-     </div>
+              <div class="row second sec">
+                 <div class="col-md-4">
+                   <i class="fas fa-pound-sign"></i>
+                   <input type="text" placeholder="Your Budget">
+                 </div>
+                 <div class="col-md-4">
+                   <i class="fas fa-location-arrow"></i>
+                   <input type="email" placeholder="Country">
+                 </div>
+                 <div class="col-md-4">
+                   <i class="fab fa-skype"></i>
+                   <input type="number" placeholder="Skype ID/WatsApp No">
+                 </div>
+              </div>
+                <i class="far fa-sticky-note" id="note"></i><br>
+                <textarea placeholder="Send us a message"></textarea>
+              <div class="forSubmitButton">
+                   <button>SUBMIT A REQUEST <span><i class="fas fa-arrow-right"></i></span></button>
+              </div>
+           </div>
+           <div class="row footer">
+              <ul class="col-md-3 footerUl">
+                <li>About Us</li>
+                <li> >Client Testimony</li>
+                <li> >Our Team</li>
+                <li> >Jobs</li>
+                <li> >Technology Partners</li>
+                <li> >Certifications</li>
+                <li> >Confidentiality</li>
+                <li> >Contact Us</li>
+              </ul>
+              <ul class="col-md-3 footerUl">
+                <li>Services</li>
+                <li> >Mobile Apps</li>
+                <li> >Software Solutions</li>
+                <li> >Web and Ecommerce</li>
+                <li> >Testing and QA</li>
+                <li> >Real Time Solutions</li>
+                <li> >Cloud</li>
+                <li> >View All</li>
+              </ul>
+              <ul class="col-md-3 footerUl">
+                <li>Technologies</li>
+                <li> >Web</li>
+                <li> >Framework</li>
+                <li> >Mobile Apps</li>
+                <li> >Platforms</li>
+                <li> >Database</li>
+              </ul>
+              <ul class="col-md-3 footerUl">
+                <li>Industries</li>
+                <li> >Software & Technology</li>
+                <li> >Retail & eCommerce</li>
+                <li> >Logistic & Shipping</li>
+                <li> >Travel & Hospitality</li>
+                <li> >Health & LiveScience</li>
+                <li> >View All</li>
+              </ul>
+              <ul class="col-md-3 footerUl">
+                <li>Case Studies</li>
+                <li> >eBook</li>
+                <li> >Webinar</li>
+                <li> >White Paper</li>
+                <li> >Infographics</li>
+                <li> >Tech Blog</li>
+                <li> >Retails Blog</li>
+                <li> >FAQs</li>
+              </ul>
+           </div>
+           <div class="row Copyright">
+              <div class="col-md-4">
+                  <p>Copyright @ 2019 By BuildSystems</p>
+              </div>
+              <div class="col-md-4">
+                 <p>Contact Us|Sitemap</p>
+              </div>
+              <div class="col-md-4">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-slack-hash"></i>
+              </div>
+           </div>
+       </div>
+    </div>
      <script type="text/javascript">
          function showStack(param) {
              var elem = param.id;
