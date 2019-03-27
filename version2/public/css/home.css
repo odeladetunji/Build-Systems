@@ -251,7 +251,7 @@ textarea
 
 .howWeAutomate {
   width: 100%;
-  margin-top: 550px;
+  margin-top: 200px;
   padding: 40px;
   background-color: #0E131F;
 }
@@ -632,6 +632,15 @@ a:hover {
 
 .aboutPage {
   background-color: #70B9FC;
+}
+
+#carouselExampleSlidesOnly {
+  height: 400px;
+}
+
+
+.carousel-inner {
+  height: 600px;
 }
 
 @media screen and (max-width: 360px) {

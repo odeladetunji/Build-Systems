@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="/css/services.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
   <body>
      <div class="header">
@@ -279,27 +282,73 @@
           <li><a href="/contactus">Contact Us</a></li>
         </ul>
     </div>
-      <div class="aboutServices">
-          <div class="theServices">
-              <h3>Business Development Solution</h3>
-              <h3>Increase Turnover through existing customer relationships</h3>
-              <p>
-                 We aim to help you achieve your growth potential by renewing your exiting market strategy and business
-</p>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active aboutServices">
+              <div class="theServices">
+                  <h3>Business Development Solution</h3>
+                  <h3>Increase Turnover through <br> existing customer <br> relationships</h3>
+                  <p>
+                     We aim to help you achieve your growth potential by renewing your exiting market strategy and business
+                  </p>
+              </div>
+              <img src="/images/BuildSystem/AboutUs/AboutImg.png" alt="">
+              <div class="remainingP">
+                 <p>
+                   plan or developing a new business model. We focus on increasing turnover through existing customer
+        and new customer additions. we can expand your brand presence for clients who intend to launch into international community. <br><br>
+        In addition, our principal are supported by a strong, colaborative and accomplished network of affiliates professional within
+        significant credentials and achievement in areas that support practice areas. Regardless of your organizations size or industry,
+        we will help you accelerate your growth, expand your business, inprove your performance, restructure, or assist you with transitioning to the
+        next phase.
+                 </p>
+              </div>
           </div>
-          <img src="/images/BuildSystem/AboutUs/AboutImg.png" alt="">
-      </div>
-      <div class="remainingP">
-         <p>
-           plan or developing a new business model. We focus on increasing turnover through existing customer
-and new customer additions. we can expand your brand presence for clients who intend to launch into international community. <br><br>
-In addition, our principal are supported by a strong, colaborative and accomplished network of affiliates professional within
-significant credentials and achievement in areas that support practice areas. Regardless of your organizations size or industry,
-we will help you accelerate your growth, expand your business, inprove your performance, restructure, or assist you with transitioning to <thead>
-next phase.
-      </p
-          </thead>
-        </p>
+
+          <div class="carousel-item aboutServices">
+              <div class="theServices">
+                  <h3>Software Development Solutions</h3>
+                  <h3>Integrate Software Solutions <br>in operation to scale-up <br>productivity</h3>
+                  <p>
+                     We aim to help you achieve your growth potential by renewing <br>your exiting market </p>
+              </div>
+              <img src="/images/BuildSystem/ServicesSwdev/ServicesSWDevImg.png" alt="">
+              <div class="remainingP">
+                 <p>
+                   strategy and business
+                    At Build Systems, our goal is to assist start-ups businesses or large corperations integrate software
+                     solutions in operation to scale-up their productivity and create a more efficient system that will achieve
+                     better service delivery, reach new markets and optimize internal processes. <br><br> Our solutions take on
+                     the most complex and resource-intensive tasks, including media content management and distribution, video
+                     conferencing, programmatic advertising, data mining and aggregation, big data analytics, image analysis, and more. <br><br>
+                     In addition , our pricipals are supported by a strong, collaborative and accomplished network of affiliates
+                      professionals with significant credentials and achievements in areas that support these practice areas.
+                      Regardless of your organisations size or industry, we will help you accelerate your growth, expand your business, improve your performance,
+                      restructure, or assist you with transitioning to the next phase
+                 </p>
+              </div>
+          </div>
+
+          <div class="carousel-item aboutServices">
+              <div class="theServices">
+                  <h3>Hardware Technology</h3>
+                  <h3>Gather data in real time with <br>interconnected smart devices <br> in an IoT system</h3>
+                  <p>
+                     We aim to help you achieve your growth potential by renewing your exiting market strategy and business
+                  </p>
+              </div>
+              <img src="/images/BuildSystem/Services - HW Tech/ServicesHWTechImg.png" alt="">
+              <div class="remainingP">
+                 <p>
+                   plan or developing a new business model. We focus on increasing turnover through existing customer
+        and new customer additions. we can expand your brand presence for clients who intend to launch into international community. <br><br>
+        In addition, our principal are supported by a strong, colaborative and accomplished network of affiliates professional within
+        significant credentials and achievement in areas that support practice areas. Regardless of your organizations size or industry,
+        we will help you accelerate your growth, expand your business, inprove your performance, restructure, or assist you with transitioning to the
+        next phase.
+                 </p>
+              </div>
+          </div>
       </div>
        <div class="lastSection">
            <div class="forQuote">

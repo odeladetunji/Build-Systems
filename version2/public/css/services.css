@@ -45,7 +45,7 @@ a {
 .theServices {
   width: 55%;
   position: absolute;
-  top: 120px;
+  top: 60px;
   left: 40px;
   background-color: transparent;
   z-index: 2;
@@ -61,10 +61,10 @@ a {
 .aboutServices img {
   padding-top: 10px;
   right: 40px;
-  top: 90px;
+  top: 120px;
   position: absolute;
   z-index: 1;
-  width: 50%;
+  width: 40%;
 }
 
 .aboutServices {
@@ -74,11 +74,12 @@ a {
 }
 
 .lastSection {
-
+  /* margin-top: 100px; */
 }
 
 .remainingP {
-  margin-top: 320px;
+  margin-top: 380px;
+  /* padding-bottom: 50px; */
 }
 
 .remainingP p {
@@ -87,10 +88,21 @@ a {
   text-align: justify;
   position: relative;
   z-index: 2;
+  margin-bottom: 0px;
 }
 
 body {
   background-color: #70B9FC !important;
+}
+
+.carousel-inner {
+  /* height: 1050px; */
+  height: 800px;
+}
+
+
+.carousel-item {
+  /* padding-top: 0px !important; */
 }
 
 
@@ -107,6 +119,26 @@ body {
     left: 20px;
   }
 
+  .aboutServices img {
+    top: 50px;
+  }
+
+  .theServices {
+    top: 20px;
+    left: 15px;
+  }
+
+  .aboutServices img {
+    right: 15px;
+  }
+
+
+  .carousel-inner {
+    height: 1050px;
+    /* height: 800px; */
+  }
+
+
 }
 
 @media screen and (max-width: 671px) and (min-width: 360px) {
@@ -122,8 +154,23 @@ body {
     left: 20px;
   }
 
+  .aboutServices img {
+    right: 15px;
+  }
+
   .remainingP {
 
   }
+
+  .theServices {
+    left: 15px;
+  }
+
+
+  .carousel-inner {
+    height: 1050px;
+    /* height: 800px; */
+  }
+
 
 }
