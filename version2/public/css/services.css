@@ -56,6 +56,7 @@ a {
   padding: 15px;
   padding-left: 0px;
   text-align: justify;
+  text-justify: inter-word;
 }
 
 .aboutServices img {
@@ -74,7 +75,7 @@ a {
 }
 
 .lastSection {
-  /* margin-top: 100px; */
+  margin-top: 300px;
 }
 
 .remainingP {
@@ -91,6 +92,33 @@ a {
   margin-bottom: 0px;
 }
 
+.movingIcons {
+  background-color: #FFF8F8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap !important;
+  width: 100%;
+}
+
+.movingIcons div {
+   width: 250px;
+   /* height: 250px; */
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-top: 20px;
+   /* border: 1px solid black; */
+}
+
+.movingIcons div img {
+  margin-left: 25%;
+}
+
+.movingIcons div p {
+  text-align: center;
+  font-weight: bold;
+}
+
 body {
   background-color: #70B9FC !important;
 }
@@ -101,8 +129,15 @@ body {
 }
 
 
+
+
 .carousel-item {
   /* padding-top: 0px !important; */
+}
+
+#thirdCustomSlider {
+  margin-top: 100px;
+  height: 0px;
 }
 
 
@@ -135,9 +170,12 @@ body {
 
   .carousel-inner {
     height: 1050px;
-    /* height: 800px; */
+    /* height: 900px; */
   }
 
+  .lastSection {
+    margin-top: 870px !important;
+  }
 
 }
 
@@ -167,8 +205,12 @@ body {
   }
 
 
+  .lastSection {
+    margin-top: 510px;
+  }
+
   .carousel-inner {
-    height: 1050px;
+    /* height: 1050px; */
     /* height: 800px; */
   }
 

@@ -16,7 +16,7 @@
   <body>
      <div class="header">
          <ul>
-           <li>BuildSystems</li>
+           <li><img src="{{ asset('/images/BuildSystem/Home/logo.png')}}" alt=""></li>
            <li><a href="/">Home</a></li>
            <li><a href="/aboutus">About Us
               <div class="forAbout">
@@ -150,7 +150,7 @@
              </div>
            </li>
            <li><a href="/contactus"> Contact Us</a></li>
-           <li><a href="/banner">banner</a></li>
+           <!-- <li><a href="/banner">banner</a></li> -->
          </ul>
     </div>
     <div class="secondHeader">
@@ -282,7 +282,7 @@
           <li><a href="/contactus">Contact Us</a></li>
         </ul>
     </div>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="false">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item active aboutServices">
               <div class="theServices">
@@ -292,11 +292,11 @@
                      We aim to help you achieve your growth potential by renewing your exiting market strategy and business
                   </p>
               </div>
-              <img src="/images/BuildSystem/AboutUs/AboutImg.png" alt="">
+              <img src="/images/BuildSystem/BusinessDev/ServicesBusDevImg.png" alt="">
               <div class="remainingP">
                  <p>
-                   plan or developing a new business model. We focus on increasing turnover through existing customer
-        and new customer additions. we can expand your brand presence for clients who intend to launch into international community. <br><br>
+                   plan or developing a new business model. We focus on increasing turnover through <br> existing customer
+        and new customer additions. we can expand your brand presence <br>for clients who intend to launch into international community. <br><br>
         In addition, our principal are supported by a strong, colaborative and accomplished network of affiliates professional within
         significant credentials and achievement in areas that support practice areas. Regardless of your organizations size or industry,
         we will help you accelerate your growth, expand your business, inprove your performance, restructure, or assist you with transitioning to the
@@ -316,15 +316,15 @@
               <div class="remainingP">
                  <p>
                    strategy and business
-                    At Build Systems, our goal is to assist start-ups businesses or large corperations integrate software
-                     solutions in operation to scale-up their productivity and create a more efficient system that will achieve
-                     better service delivery, reach new markets and optimize internal processes. <br><br> Our solutions take on
+                    At Build Systems, our goal is to assist start-ups businesses <br>or large corperations integrate software
+                     solutions in operation to scale-up their <br>productivity and create a more efficient system that will achieve
+                     better service delivery, <br>reach new markets and optimize internal processes. <br><br> Our solutions take on
                      the most complex and resource-intensive tasks, including media content management and distribution, video
                      conferencing, programmatic advertising, data mining and aggregation, big data analytics, image analysis, and more. <br><br>
                      In addition , our pricipals are supported by a strong, collaborative and accomplished network of affiliates
-                      professionals with significant credentials and achievements in areas that support these practice areas.
-                      Regardless of your organisations size or industry, we will help you accelerate your growth, expand your business, improve your performance,
-                      restructure, or assist you with transitioning to the next phase
+                     professionals with significant credentials and achievements in areas that support these practice areas.
+                     Regardless of your organisations size or industry, we will help you accelerate your growth, expand your business, improve your performance,
+                     restructure, or assist you with transitioning to the next phase
                  </p>
               </div>
           </div>
@@ -340,15 +340,60 @@
               <img src="/images/BuildSystem/Services - HW Tech/ServicesHWTechImg.png" alt="">
               <div class="remainingP">
                  <p>
-                   plan or developing a new business model. We focus on increasing turnover through existing customer
-        and new customer additions. we can expand your brand presence for clients who intend to launch into international community. <br><br>
-        In addition, our principal are supported by a strong, colaborative and accomplished network of affiliates professional within
-        significant credentials and achievement in areas that support practice areas. Regardless of your organizations size or industry,
-        we will help you accelerate your growth, expand your business, inprove your performance, restructure, or assist you with transitioning to the
+                   plan or developing a new business model. We focus on increasing turnover through <br> existing customer
+        and new customer additions. we can expand your brand presence for clients who <br> intend to launch into international community. <br><br>
+        In addition, our principal are supported by a strong, colaborative and accomplished network of affiliates <br>professional within
+        significant credentials and achievement in areas that support practice areas. Regardless of <br>your organizations size or industry,
+        we will help you accelerate your growth, expand your business, inprove your <br> performance, restructure, or assist you with transitioning to the
         next phase.
                  </p>
               </div>
           </div>
+      </div>
+      <div id="thirdCustomSlider" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <div class="movingIcons">
+                  <div>
+                      <img src="/images/BuildSystem/BusinessDev/busIntelli.png" alt="">
+                      <p>Business intelligence and Analytics</p>
+                  </div>
+                  <div>
+                     <img src="/images/BuildSystem/BusinessDev/start-up.png" alt="">
+                     <p>Start-Up-Advisory Services</p>
+                  </div>
+                  <div>
+                    <img src="/images/BuildSystem/BusinessDev/marketdyna.png" alt="">
+                    <p>Market Dynamics Analysis</p>
+                  </div>
+                  <div>
+                      <img src="/images/BuildSystem/BusinessDev/pdtPerf.png" alt="">
+                      <p>Product Performance $ Innovative Solutions</p>
+                  </div>
+                </div>
+          </div>
+
+          <div class="carousel-item">
+              <div class="movingIcons">
+                <div>
+                    <img src="/images/BuildSystem/ServicesSwdev/wweb&mobile.png" alt="">
+                    <p>Custom Web & Mobile Application Development</p>
+                </div>
+                <div>
+                   <img src="/images/BuildSystem/ServicesSwdev/SEO.png" alt="">
+                   <p>Search Engine Optimization (SEO) & Digital Marketing</p>
+                </div>
+                <div>
+                  <img src="/images/BuildSystem/ServicesSwdev/dataWarehouse.png" alt="">
+                  <p>Data Warehousing & Analytics</p>
+                </div>
+                <div>
+                  <img src="/images/BuildSystem/ServicesSwdev/cloudHost.png" alt="">
+                  <p>Cloud Housting & Supports</p>
+                </div>
+              </div>
+          </div>
+        </div>
       </div>
        <div class="lastSection">
            <div class="forQuote">

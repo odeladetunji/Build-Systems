@@ -15,18 +15,18 @@
   <body>
      <div class="header">
          <ul>
-           <li>BuildSystems</li>
+           <li><img src="{{ asset('/images/BuildSystem/Home/logo.png')}}" alt=""></li>
            <li><a href="/">Home</a></li>
-           <li><a href="/aboutus">About Us
+           <li><a href="/aboutus" id="aboutID">About Us
               <div class="forAbout">
                 <ul class="about">
-                  <li>About Us</li>
+                  <li>About Us</li><br>
                   <li>Who we are</li><br>
                   <li>Our Resources</li>
                 </ul>
 
                 <ul class="about">
-                  <li>Clients Testimonials</li>
+                  <li>Clients Testimonials</li><br>
                   <li>Jobs</li><br>
                   <li>Partner with Us</li>
                 </ul>
@@ -38,7 +38,7 @@
                 </ul>
               </div>
            </a></li>
-           <li><a href="/services">Services
+           <li><a href="/services" id="servicesID">Services
                <div class="forServices">
                  <ul class="services">
                    <li>business Development Solutions</li>
@@ -65,7 +65,7 @@
                  </ul>
                </div>
            </a></li>
-           <li>Technologies
+           <li id="technologyID">Technologies
              <div class="forTechnology">
                <ul class="theTechnlogies">
                  <li>Front End</li>
@@ -121,7 +121,7 @@
              </div>
            </li>
            <li><a href="/portfolio">Portfolio</a></li>
-           <li>Case Studies
+           <li id="caseStudyID">Case Studies
              <div class="forCaseStudies">
                 <ul class="casestudies">
                   <li>Software & Technology</li>
@@ -130,7 +130,7 @@
                 </ul>
 
                 <ul class="casestudies">
-                  <li>Education</li>
+                  <li>Education</li><br>
                   <li>Manufacturing</li><br>
                   <li>Sports</li>
                 </ul>
@@ -143,13 +143,12 @@
 
                 <ul class="casestudies">
                   <li>Logistic & Shipping</li>
-                  <li>Media Entertainment</li>
+                  <li>Media Entertainment</li><br>
                   <li>Automotive</li>
                 </ul>
              </div>
            </li>
            <li><a href="/contactus"> Contact Us</a></li>
-           <li><a href="/banner">banner</a></li>
          </ul>
     </div>
     <div class="secondHeader">
@@ -353,7 +352,7 @@
               </div>
            </div>
        </div>
-       <div id="technologyExample" class="carousel slide" data-ride="carousel" data-interval="1000" data-pause="false">
+       <div id="technologyExample" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="false">
          <div class="carousel-inner">
            <div class="carousel-item active technology">
              <h3>Technologies</h3>

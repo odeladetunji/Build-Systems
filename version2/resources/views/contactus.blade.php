@@ -13,7 +13,7 @@
   <body>
      <div class="header">
          <ul>
-           <li>BuildSystems</li>
+           <li><img src="{{ asset('/images/BuildSystem/Home/logo.png')}}" alt=""></li>
            <li><a href="/">Home</a></li>
            <li><a href="/aboutus">About Us
               <div class="forAbout">
@@ -147,7 +147,7 @@
              </div>
            </li>
            <li><a href="/contactus"> Contact Us</a></li>
-           <li><a href="/banner">banner</a></li>
+           <!-- <li><a href="/banner">banner</a></li> -->
          </ul>
     </div>
     <div class="secondHeader">
